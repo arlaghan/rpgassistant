@@ -3,26 +3,56 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/CharacterListFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.kidgoblin.rpgassistant.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
-
+        android:id="@+id/CharacterListFragment"
+        android:name="com.kidgoblin.rpgassistant.fragments.CharacterListFragment"
+        android:label="Character List"
+        tools:layout="@layout/fragment_character_list">
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_CharacterListFragment_to_CharacterViewFragment"
+            app:destination="@id/CharacterViewFragment" />
+        <action
+            android:id="@+id/action_CharacterListFragment_to_CharacterCreateFragment"
+            app:destination="@id/CharacterCreateFragment" />
     </fragment>
+
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.kidgoblin.rpgassistant.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        android:id="@+id/CharacterCreateFragment"
+        android:name="com.kidgoblin.rpgassistant.fragments.CharacterCreateFragment"
+        android:label="Character Create"
+        tools:layout="@layout/fragment_character_create">
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_CharacterCreateFragment_to_CharacterEditFragment"
+            app:destination="@id/CharacterEditFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/CharacterEditFragment"
+        android:name="com.kidgoblin.rpgassistant.fragments.CharacterEditFragment"
+        android:label="Character Edit"
+        tools:layout="@layout/fragment_character_edit">
+        <action
+            android:id="@+id/action_CharacterEditFragment_to_CharacterViewFragment"
+            app:destination="@id/CharacterViewFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CharacterViewFragment"
+        android:name="com.kidgoblin.rpgassistant.fragments.CharacterViewFragment"
+        android:label="Character View"
+        tools:layout="@layout/fragment_character_view">
+        <action
+            android:id="@+id/action_CharacterViewFragment_to_CharacterEditFragment"
+            app:destination="@id/CharacterEditFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/AboutFragment"
+        android:name="com.kidgoblin.rpgassistant.fragments.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about">
+    </fragment>
+
 </navigation>
