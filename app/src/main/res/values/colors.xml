@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Theme Colors - Generic -->
+    <!-- https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=1B5E20&secondary.color=FFEB3B -->
+    <color name="Generic.Green">#1b5e20</color>
+    <color name="Generic.Green.Light">#4c8c4a</color>
+    <color name="Generic.Green.Dark">#003300</color>
+    <color name="Generic.Yellow">#ffeb3b</color>
+    <color name="Generic.Yellow.Light">#ffff72</color>
+    <color name="Generic.Yellow.Dark">#c8b900</color>
+    <color name="Generic.Text">#000000</color>
+    <color name="Generic.Text.Light">#ffffff</color>
+    <color name="Generic.Text.Dark">#000000</color>
+
+    <!-- Theme Colors - SciFi -->
+    <!-- https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=0d46a0&secondary.color=FFB300 -->
+    <color name="SciFi.Blue">#0d47a1</color>
+    <color name="SciFi.Blue.Light">#5472d3</color>
+    <color name="SciFi.Blue.Dark">#002171</color>
+    <color name="SciFi.Orange">#ffb300</color>
+    <color name="SciFi.Orange.Light">#ffe54c</color>
+    <color name="SciFi.Orange.Dark">#c68400</color>
+    <color name="SciFi.Text">#000000</color>
+    <color name="SciFi.Text.Light">#ffffff</color>
+    <color name="SciFi.Text.Dark">#000000</color>
+
+    <!-- Theme Colors - Fantasy -->
+    <!-- https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=b71c1c&secondary.color=212121 -->
+    <color name="Fantasy.Red">#b71c1c</color>
+    <color name="Fantasy.Red.Light">#f05545</color>
+    <color name="Fantasy.Red.Dark">#7f0000</color>
+    <color name="Fantasy.Black">#212121</color>
+    <color name="Fantasy.Black.Light">#484848</color>
+    <color name="Fantasy.Black.Dark">#000000</color>
+    <color name="Fantasy.Text">#000000</color>
+    <color name="Fantasy.Text.Light">#ffffff</color>
+    <color name="Fantasy.Text.Dark">#000000</color>
+
 </resources>
