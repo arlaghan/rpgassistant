@@ -27,10 +27,12 @@ class CharacterListAdapter(val context: Context, val characters: ArrayList<Chara
         Log.i(TAG, "onBindViewHolder: position=$position")
 
         //Load the image from web, if present
-        characters[position].image?.let { url ->
+        //TODO: Implement placeholder images
+        characters[position].image?.let { uri ->
+            //TODO: Pull from local storage instead
             Glide.with(context)
                 .asBitmap()
-                .load(url)
+                .load(uri)
                 .into(holder.characterPortraitView)
         }
 
@@ -38,18 +40,21 @@ class CharacterListAdapter(val context: Context, val characters: ArrayList<Chara
         characters[position].name?.let { name ->
             holder.characterNameView.text = name
 
+            //TODO: Use a default name if not present
+        }
+
+        //Set the click listener
+        //TODO: Key off of an ID instead of name
+        characters[position].name?.let { name ->
             holder.characterParent.setOnClickListener {
+                //TODO: Replace this with parameterized nav action
                 Toast.makeText(
                     context,
                     name,
                     Toast.LENGTH_SHORT
                 ).show()
             }
-
         }
-
-        //Set the click listener
-
     }
 
     override fun getItemCount(): Int {

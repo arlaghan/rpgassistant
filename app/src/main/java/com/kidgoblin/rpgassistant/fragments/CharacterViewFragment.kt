@@ -34,7 +34,8 @@ class CharacterViewFragment : Fragment() {
 
         //Set the FAB to open character create
         val fab = (activity as MainActivity?)!!.findViewById<FloatingActionButton>(R.id.fab)
-        //TODO set click handler for FAB
+        //TODO Set the icon of FAB to Edit symbol
+        //TODO Set click handler for FAB to navigate to edit character
         fab.show()
     }
 

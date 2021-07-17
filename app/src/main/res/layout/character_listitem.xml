@@ -8,6 +8,7 @@
     android:layout_margin="8dp"
     app:cardCornerRadius="8dp"
     app:cardBackgroundColor="?attr/colorPrimaryVariant">
+    <!-- TODO Create a Surface Color for un-emphasized button backgrounds (ColorStateList) -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -21,14 +22,14 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@mipmap/ic_launcher" />
+            tools:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/character_portrait" />
 
         <TextView
             android:id="@+id/character_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
