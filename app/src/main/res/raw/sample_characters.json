@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Janot of the Water",
+    "image": "https://i.picsum.photos/id/990/200/200.jpg?hmac=aKX7eTSZXBAWNV5wrvlgko5ESRbbvaAcbu6QmqEkXtE",
+    "system": "SF",
+    "maxHP": 45,
+    "curHP": 45
+  },
+  {
+    "name": "Americus the Allegiant",
+    "image": "https://i.picsum.photos/id/400/200/200.jpg?hmac=YLB07yPNCdu_zyt5Mr1eLqUtqY7nPOmnJBvJea4s7Uc",
+    "system": "SF",
+    "maxHP": 23,
+    "curHP": 23
+  },
+  {
+    "name": "Gallien the Wild",
+    "image": "https://i.picsum.photos/id/979/200/200.jpg?hmac=WcPMB8O2ujsPsQzJm14ISP-kXmQ59P6G82VPGNwql4I",
+    "system": "SF",
+    "maxHP": 55,
+    "curHP": 55
+  },
+  {
+    "name": "Lovel of the North",
+    "image": "https://i.picsum.photos/id/951/200/200.jpg?hmac=FVINiB5mMdXIUDDk4AYptO4s4A2ETDNX4n3RSDaoB4E",
+    "system": "SF",
+    "maxHP": 44,
+    "curHP": 44
+  },
+  {
+    "name": "Henfrey the Creature",
+    "image": "https://i.picsum.photos/id/410/200/200.jpg?hmac=hVMLZXpDnTKOed7U0eNRwQvhs6LRl-g0XjEFRs4V3cU",
+    "system": "SF",
+    "maxHP": 10,
+    "curHP": 10
+  },
+  {
+    "name": "Foucaut the Silence",
+    "image": "https://i.picsum.photos/id/637/200/200.jpg?hmac=5gHTwbVytbdI9UEOz3_YW6GES2HCcph0DN7ylAvsN0Y",
+    "system": "SF",
+    "maxHP": 54,
+    "curHP": 54
+  },
+  {
+    "name": "Hamon the Friend",
+    "image": "https://i.picsum.photos/id/662/200/200.jpg?hmac=LdYzwSk5Qj10-4AVlHBneunSCcoSnwW8D2qHz-GD2U8",
+    "system": "SF",
+    "maxHP": 40,
+    "curHP": 40
+  },
+  {
+    "name": "Helain the Keeper",
+    "image": "https://i.picsum.photos/id/276/200/200.jpg?hmac=nEmegloU9V9ajpTC6GdgRRIz-d0EliWd5cQ-F1olB54",
+    "system": "SF",
+    "maxHP": 20,
+    "curHP": 20
+  },
+  {
+    "name": "Richal the Grand",
+    "image": "https://i.picsum.photos/id/483/200/200.jpg?hmac=tIKQEdwuW7trzVGWGE-cAgtpmRJla51INgO9dvJG3hA",
+    "system": "SF",
+    "maxHP": 32,
+    "curHP": 32
+  },
+  {
+    "name": "Bartrem the Orphan",
+    "image": "https://i.picsum.photos/id/744/200/200.jpg?hmac=8T0b9ya-1hs9mQn1Sosud4eldJZ6haGcupAiLTJHe2o",
+    "system": "SF",
+    "maxHP": 65,
+    "curHP": 65
+  },
+  {
+    "name": "Victoria the Timid",
+    "image": "https://i.picsum.photos/id/976/200/200.jpg?hmac=xz9CTpScnLHQm_wNTcJmz8bQM6-ApTQnof5-4LGtu-s",
+    "system": "SF",
+    "maxHP": 21,
+    "curHP": 21
+  },
+  {
+    "name": "Tilla the Outsider",
+    "image": "https://i.picsum.photos/id/631/200/200.jpg?hmac=0M-2IX2ufxXIHxmjexNzQaHh00x_8G1oAr_FUKt4EgM",
+    "system": "SF",
+    "maxHP": 50,
+    "curHP": 50
+  },
+  {
+    "name": "Ismeina the Loner",
+    "image": "https://i.picsum.photos/id/641/200/200.jpg?hmac=9pd71nRRRsT7TXf0zn0hQ6tW6VQnQ-UtL1JXDhJZB8E",
+    "system": "SF",
+    "maxHP": 8,
+    "curHP": 8
+  },
+  {
+    "name": "Emmet the Keeper",
+    "image": "https://i.picsum.photos/id/102/200/200.jpg?hmac=mLVQr0-wbZ-PRSf_R4oFkUDR7yfIKqT3F8pfJNFZKc0",
+    "system": "SF",
+    "maxHP": 17,
+    "curHP": 17
+  },
+  {
+    "name": "Mylisant the Beast",
+    "image": "https://i.picsum.photos/id/436/200/200.jpg?hmac=axiGy-zt6-TD5Hu1AD_rhudOgkfr-VQElZPKE592Mwc",
+    "system": "SF",
+    "maxHP": 29,
+    "curHP": 29
+  },
+  {
+    "name": "Winifred the Honest",
+    "image": "https://i.picsum.photos/id/1062/200/200.jpg?hmac=F_trr44XLYeth1u5FIqJIgtD4pR7WOlzKZ2xrQ3tzww",
+    "system": "SF",
+    "maxHP": 36,
+    "curHP": 36
+  },
+  {
+    "name": "Imayn the Slayer",
+    "image": "https://i.picsum.photos/id/525/200/200.jpg?hmac=_RnAIjIviTYNBh6qG-zjQg_m2UBgAnnh96jDb8ZDKSI",
+    "system": "SF",
+    "maxHP": 50,
+    "curHP": 50
+  },
+  {
+    "name": "Adelysia of the Light",
+    "image": "https://i.picsum.photos/id/781/200/200.jpg?hmac=QS4V9UziNCgGW5Nv84Kaun5Xgfx0l8qXNBmtPBClPJo",
+    "system": "SF",
+    "maxHP": 20,
+    "curHP": 20
+  },
+  {
+    "name": "Havisa the Green",
+    "image": "https://i.picsum.photos/id/164/200/200.jpg?hmac=UA4QhIt441pdFJ6Uam2yCxzda_KjWgQgy8fYs_-NFEM",
+    "system": "SF",
+    "maxHP": 49,
+    "curHP": 49
+  },
+  {
+    "name": "Emme the Weak",
+    "image": "https://i.picsum.photos/id/119/200/200.jpg?hmac=JGrHG7yCKfebsm5jJSWw7F7x2oxeYnm5YE_74PhnRME",
+    "system": "SF",
+    "maxHP": 38,
+    "curHP": 38
+  }
+]
